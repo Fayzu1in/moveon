@@ -1,38 +1,47 @@
 body {
+  margin: 0;
   color: white;
 }
-.container-fluid {
-  background-image: url(/img/Path\ 194.png);
+.top-container {
+  background: url(/img/Group\ 112.png);
+  height: 1106px;
+  width: 1900px;
+
   background-size: cover;
-  height: 1075.62px;
 }
-.right-side > ul > li {
-  display: inline;
-  padding-right: 24px;
-}
-.right-side > ul > li > a {
-  color: white;
-}
-.right-side {
-  font-size: 20px;
+.navbar {
+  display: flex;
+  width: 1600px;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 .left-side {
   font-size: 36px;
 }
+.right-side > ul > li {
+  display: inline;
+  font-size: 20px;
+  padding-right: 24px;
+}
+.right-side > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
 .left-title {
   width: 500px;
-  margin-top: 316px;
-}
-h1 {
-  font-size: 48px;
-}
-.subtitle {
-  font-size: 20px;
+  margin-top: 220px;
 }
 .content {
+  width: 1500px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 42px;
 }
 .phones {
-  margin-top: 50px;
+  margin-top: 60px;
 }
